@@ -1,47 +1,56 @@
 - Basic writing and formatting syntax
 
-[comment]: <> (Headings)
-[comment]: <> (标题：1到6个#控制标题字号的大小)
+1. Headings
+  - 标题：1到6个#控制标题字号的大小
+
 # The largest heading
-## The second largest heading
-### The third largest heading
-#### The fourth largest heading
-##### The fifth largest heading
+## The second-largest heading
+### The third-largest heading
+#### The fourth-largest heading
+##### The fifth-largest heading
 ###### The smallest heading
 
-[comment]: <> (styling text)
-[comment]: <> (bold)
-[comment]: <> (粗体：一对**或者__，包裹内容；)
-[comment]: <> (快捷键：ctrl + b)
+
+2. styling text
+   - bold
+   - 粗体：一对**或者__，包裹内容；
+   - 快捷键：ctrl + b
+
 **this is bold text**
 
 __this is bold text__
 
-[comment]: <> (italic)
-[comment]: <> (斜体：一对*或者_，包裹内容；)
-[comment]: <> (快捷键：ctrl + i)
+3. italic
+   - 斜体：一对*或者_，包裹内容；
+   - 快捷键：ctrl + i
+
 _this text is italicized_
 
 *this text is italicized*
 
-[comment]: <> (strikethrough)
-[comment]: <> (删除线：一对~~，包裹内容；)
+4. strikethrough
+   - 删除线：一对~~，包裹内容；
+
 ~~this was mistaken text~~
 
-[comment]: <> (bold and nested italic)
-[comment]: <> (粗体嵌套斜体：一对**，包裹一对__；)
+5. bold and nested italic
+   - 粗体嵌套斜体：一对**，包裹一对__；
+
 **this text is _extremely_ important**
 
-[comment]: <> (all bold and italic)
-[comment]: <> (所有粗体斜体：一对***，包裹内容；)
+6. all bold and italic
+   - 所有粗体斜体：一对***，包裹内容；
+
 ***all this text is important***
 
-[comment]: <> (quoting text )
-[comment]: <> (引用文本：> 后面跟内容；)
+7. quoting text 
+   - 引用文本：> 后面跟内容；
+
 > text that is not a quot
 
-[comment]: <> (quoting code)
-[comment]: <> (引用代码：一对`，包裹内容；)
+8. quoting code
+   - 引用代码：一对`，包裹一行代码内容；一对```，包裹多行代码内容；
+
 use `git status` to list all new or modified files that haven't yet been commited.
 
 some basic git commands are:
@@ -51,20 +60,25 @@ git add
 git commit
 ```
 
-[comment]: <> (links)
-[comment]: <> (链接：[] + （） 中括号包裹文本内容，小括号包裹url；)
+9. links
+   - 链接：[] + （） 中括号包裹文本内容，小括号包裹url；
+
 this site was built using [github pages](https://pages.github.com).
 
-[comment]: <> (relative links)
-[comment]: <> (相对路径：以当前文件在本项目中的位置为中心，确定访问的其他文件的位置；)
+10. relative links
+    - 相对路径：以当前文件在本项目中的位置为中心，确定访问的其他文件的位置；
+
 [001.jpg](../../images/001.jpg)
 
-[comment]: <> (images)
-[comment]: <> (图片：！+ [] + （） 感叹号 紧跟中括号、小括号，中括号包裹文本内容，小括号包裹url或者相对路径；)
+11. images
+    - 图片：！+ [] + （） 感叹号 紧跟中括号、小括号，中括号包裹文本内容，小括号包裹url或者相对路径；
+
 ![this is an image](../../images/002.jpg)
 
-[comment]: <> (lists)
-[comment]: <> (无序列表：- 或者 * 紧跟文本内容；)
+12. lists
+    - 无序列表：- 或者 * 紧跟文本内容；
+    - 有序列表：number . 紧跟文本内容；
+
 - George Washington
 - John Adams
 - Thomas Jefferson
@@ -73,14 +87,15 @@ this site was built using [github pages](https://pages.github.com).
 * eveyone
 * !
 
-[comment]: <> (有序列表：number . 紧跟文本内容；)
 1. James Madison
 2. James Monroe
 3. John Quincy Adams
 
-[comment]: <> (nested lists)
-[comment]: <> (嵌套列表：number . 或者 - or *  紧跟若干个 tab键缩进 - 或者 * ；)
-1. First list item
+
+13. nested lists
+    - 嵌套列表：number . 或者 - or *  紧跟若干个 tab键缩进 - 或者 * ；
+    
+- First list item
     - First list item
         - Second list item
 
@@ -88,8 +103,9 @@ this site was built using [github pages](https://pages.github.com).
   * First nested list item
     * Second nested list item
 
-[comment]: <> (task lists)
-[comment]: <> (任务列表：number . 或者 - or * + [] 中括号包裹内容；中括号内容为x，显示为对号；)
+14. task lists
+    - 任务列表：number . 或者 - or * + [] 中括号包裹内容；中括号内容为x，显示为对号；
+
 - [x] #739
 - [ ] https:github.com/octo-org/octo-repo/issues/740
 - [ ] add delight to the experience when all tasks are complete:tada:
@@ -98,8 +114,10 @@ this site was built using [github pages](https://pages.github.com).
 1. [ ] hello
 2. [x] boy
 
-[comment]: <> (hiding content with comments)
-[comment]: <> (注释：<!--  --> 一对html格式符包裹内容；)
+
+15. hiding content with comments
+    - 隐藏注释：<!--  --> 一对html格式符包裹内容；
+
 <!-- this content will not appear in the rendered markdown -->
 
 
